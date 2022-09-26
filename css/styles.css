@@ -1,0 +1,54 @@
+:root {
+  --font-primary: 'Overpass', sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+input,
+select,
+textarea,
+button {
+  border: none;
+  box-shadow: none;
+  outline: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:link,
+a:visited,
+a:hover,
+a:active {
+  color: inherit;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+body {
+  font-family: var(--font-primary);
+  background-color: hsl(216, 11.6%, 8.4%);
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.card {
+  height: 416px;
+  width: 412px;
+  padding: 32px 39px 32px 32px;
+  background: radial-gradient(98.96% 98.96% at 50% 0%, hsl(215.3, 19.5%, 17.1%) 0%, hsl(216, 23.8%, 12.4%) 100%);
+  border-radius: 30px;
+}
