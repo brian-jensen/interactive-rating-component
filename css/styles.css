@@ -111,6 +111,9 @@ body {
   .ratings-container button:hover {
     color: hsl(0, 0%, 100%);
     background-color: hsl(25.3, 97.5%, 53.3%);
+    transition: background-color, color;
+    transition-duration: 0.25s;
+    transition-timing-function: ease-in;
   }
 
   .ratings-container button.active {
@@ -140,6 +143,9 @@ body {
   .submit:hover:not([disabled]) {
     background-color: hsl(0, 0%, 100%);
     color: hsl(25.3, 97.5%, 53.3%);
+    transition: background-color, color;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in-out;
   }
 }
 
